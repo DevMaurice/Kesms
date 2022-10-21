@@ -1,0 +1,31 @@
+{
+    "name": "devmaurice/kesms",
+    "description": "A package that encapsulates most of the sms providers in Kenya.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "DevMaurice",
+            "email": "developermaurice@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Devmaurice\\Kesms\\": "src/"
+        },
+        "classmap": [
+
+        ]
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Devmaurice\\Kesms\\SmsServiceProvider"
+            ]
+        }
+    },
+    "require": {
+        "africastalking/africastalking": "dev-master"
+    }
+}
