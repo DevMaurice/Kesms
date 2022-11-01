@@ -6,6 +6,6 @@ The packages consolidates various sms gateways provided in Kenya.
 
 Share your PRs 
 
-#Issues
+# Issues
 
 Share issues.
